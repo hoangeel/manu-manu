@@ -1,0 +1,44 @@
+.fullStep{
+  .contentFullStep{
+    .cardFullStep{
+      .GroupHeaderStep{
+        .HeaderStep{
+          .QRStep2{
+            width: 186px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .fullStep{
+    .contentFullStep{
+      .cardFullStep{
+        .GroupHeaderStep{
+          .HeaderStep{
+            .QRStep2{
+              width: 155px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  .fullStep{
+    .contentFullStep{
+      .cardFullStep{
+        .GroupHeaderStep{
+          .HeaderStep{
+            .QRStep2{
+              width: 140px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+.fullStep{
+  .contentFullStep{
+    .newDish{
+      margin-bottom: 24px;
+      padding: 12px;
+      background: #F7F7F7;
+      border: 1px dashed rgba(99, 106, 130, 0.2);
+      border-radius: 6px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #F96F37;
+      &:hover{
+        cursor: pointer;
+        opacity: 0.7;
+      }
+    }
+    .allDish{
+      display: flex;
+      flex-direction: row;
+      .groupDish{
+        margin-bottom: 24px;
+        .dishName{
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: -0.5px;
+          color: #1A2649;
+        }
+        .dishText{
+          display: inline-block;
+          width: 289px;
+          white-space: nowrap;
+          overflow: hidden !important;
+          text-overflow: ellipsis;
+          margin: 6px 0px;
+        }
+        .dishPrice{
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 150%;
+          letter-spacing: -0.5px;
+          color: #F96F37; 
+          margin: 0px;         
+        }
+      }
+      .buttonDish{
+        .edit{
+          margin-right: 16px;
+        }
+        .delete{
+          width: 24px;
+          height: 24px;
+          background: #FFFFFF;
+          border: none;
+          padding: 0px;
+          &:hover{
+            cursor: pointer;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px){
+  .fullStep{
+    .contentFullStep{
+      .allDish{
+        .groupDish{
+          .dishText{
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+}

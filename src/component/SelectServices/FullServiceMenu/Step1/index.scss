@@ -1,0 +1,311 @@
+.fullStep{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  .contentFullStep{
+    padding: 0px;
+    .cardFullStep{
+      padding: 30px;
+      border: none;
+      margin: 73px 100px 0px 0px;
+      width: 440px;
+      .GroupHeaderStep{
+        display: flex;
+        flex-direction: row;
+        .HeaderStep{
+          .textRestaurant{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 100%;
+            color: #636A82;
+            margin-bottom: 12px;
+          }
+          .boderRestaurant{
+            width: 121.33px;
+            height: 6px;
+            background: #DADADA;
+            border-radius: 10px;            
+          }
+          .colorHeaderStep{
+            color: #F96F37;
+          }
+          .backgroundHeaderStep{
+            background: #F96F37;
+          }
+        }
+        .DishMenu{
+          margin: 0px 8px;
+        }
+      }
+      .textStep{
+        margin: 24px 0px 8px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        display: flex;
+        align-items: center;
+        color: #636A82;
+      }
+      .titleStep{
+        margin-bottom: 40px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 28px;
+        letter-spacing: -0.5px;
+        color: #1A2649;
+      }
+      .formStep{
+        .formGroupStep{
+          .formFile{
+            height: 100px;
+            margin-bottom: 24px;
+          }
+          .formLabelStep{
+            margin-bottom: 8px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: #1A2649;
+            .spanColor{
+              color: #F96F37;
+            }
+          }
+          .formControlStep{
+            margin-bottom: 24px;
+            border: none;
+            padding: 12px 16px;
+            background: #F7F7F7;
+            border-radius: 6px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #636A82;
+          }
+          .formImgStep{
+            margin: 0px;
+            margin-bottom: 24px;
+            padding: 6px 6px 6px 0px;
+            background: #F7F7F7;
+            border:1px solid #F7F7F7;
+          }
+          .css-1s2u09g-control{
+            background: #F7F7F7;
+            border: none;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            padding: 0px;
+            margin-bottom: 24px;
+          }
+          .css-1pahdxg-control{
+            border:#F7F7F7;
+            background-color: #F7F7F7;
+            margin-bottom: 24px;
+            padding: 0px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            box-shadow: 0 0 0 1px #F7F7F7;
+          }
+          .css-319lph-ValueContainer{
+            padding: 9px 16px;
+          }
+          .css-g1d714-ValueContainer{
+            background: #F7F7F7;
+            border: none;
+          }
+          .css-g1d714-ValueContainer{
+            padding-left: 16px;
+            .css-1rhbuit-multiValue{
+              background: #DADADA;
+              border-radius: 20px; 
+              padding: 5px 6px 5px 10px;
+              margin: 9px 8px 9px 0px;
+              .css-12jo7m5{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                color: #636A82; 
+                padding: 0px;          
+              }
+            }
+          }
+          .formSelectStep{
+            background: #F7F7F7;
+            border-radius: 6px;
+            padding: 12px 16px;
+            border: none;
+            margin-bottom: 24px;
+          }
+        }
+      }
+      .buttonGroupStep{
+        .Back{
+          margin-right: 19px;
+          padding: 12px 71px;
+          background: #DADADA;
+          border-radius: 6px;
+          border: #DADADA;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 24px;
+          text-transform: uppercase;
+          color: #636A82;
+          &:hover{
+            cursor: pointer;
+            opacity: 0.7;
+          }
+        }
+        .Next{
+          padding: 12px 71px;
+          background: #F96F37;
+          border-radius: 6px;
+          border: #F96F37;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 24px;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          &:hover{
+            cursor: pointer;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+  .imgFullStep1{
+    padding: 0px;
+    border: none;
+    margin: 50px 0px;
+  }
+}
+
+@media (max-width: 1025px){
+  .fullStep{
+    .contentFullStep{
+      .cardFullStep{
+        margin: 20px 50px 0px 0px;
+      }
+    }
+    .imgFullStep1{
+      img{
+        width: 450px;
+        height: 750px;
+      }
+    }
+  }
+}
+@media (max-width: 768px){
+  .fullStep{
+    flex-direction: column;
+    .contentFullStep{
+      display: flex;
+      justify-content: center;
+      .cardFullStep{
+        width: 440px;
+        margin: 0px;
+      }
+    }
+    .imgFullStep1{
+      display: flex;
+      justify-content: center;
+      img{
+        width: 440px;
+        height: 600px;
+      }
+    }
+  }
+}
+@media (max-width: 500px){
+  .fullStep{
+    .contentFullStep{
+      .cardFullStep{
+        width: 336px;
+        padding:10px;
+        .GroupHeaderStep{
+          .HeaderStep{
+            .textRestaurant{
+              font-size: 12px;
+            }
+            .boderRestaurant{
+              width: 100px;            
+            }
+          }
+          .DishMenu{
+            margin: 0px 8px;
+          }
+        }
+        .buttonGroupStep{
+          .Back{
+            margin-right: 10px;
+            padding: 10px 60px;
+            font-size: 12px;
+          }
+          .Next{
+            padding: 10px 60px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .imgFullStep1{
+      img{
+        width: 350px;
+        height: 450px;
+      }
+    }
+  }
+}
+@media (max-width: 400px){
+  .fullStep{
+    .contentFullStep{
+      .cardFullStep{
+        .GroupHeaderStep{
+          .HeaderStep{
+            .boderDishMenu{
+              width: 85px;
+            }
+          }
+        }
+        .buttonGroupStep{
+          .Back{
+            margin-right: 10px;
+            padding: 10px 40px;
+            font-size: 12px;
+          }
+          .Next{
+            padding: 10px 40px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .imgFullStep1{
+      img{
+        width: 300px;
+        height: 450px;
+      }
+    }
+  }
+}

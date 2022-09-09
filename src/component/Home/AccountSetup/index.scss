@@ -1,0 +1,152 @@
+.Setup{
+    padding:8px 0px 220px ;
+    button{
+        &:hover{
+            cursor: pointer;
+            opacity: 0.7;
+        }
+    }
+    .Account{
+        margin: 24px 0px ;
+        width: 818px;
+        padding: 24px;
+        background: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        border-radius: 6px;
+        .titleAccount{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 20px;
+            letter-spacing: -0.5px;
+            color: #1A2649;
+            margin: 0px;
+        }
+        .email{
+            margin-top: 32px;
+            .cardEmail{
+                margin: 0px;
+                .h3Email{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: -0.5px;
+                    color: #1A2649;   
+                    margin-bottom: 6px;         
+                }
+                .textEmail{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: -0.5px;
+                    color: #636A82;
+                    margin: 0px;
+                }
+            }
+            .Change{
+                padding: 8px 20px;
+                background: #636A82;
+                border-radius: 6px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 24px;
+                text-transform: uppercase;
+                color: #FFFFFF; 
+                border: none;           
+            }
+        }
+        .Disabling{
+            margin: 8px 0px 32px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: -0.5px;
+            color: #636A82;        
+        }
+        .groupButton{
+            .Disable{
+                padding: 8px 20px;
+                background: #D24A3E;
+                border-radius: 6px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 24px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                border: none;
+                margin-right: 10px
+            }
+            .Deactivate{
+                padding: 8px 20px;
+                background: #FFFFFF;
+                border: 1px solid #636A82;
+                border-radius: 6px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 24px;
+                text-transform: uppercase;
+                color: #636A82;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .Setup{
+        padding:8px 0px 120px ;
+        button{
+            &:hover{
+                cursor: pointer;
+                opacity: 0.7;
+            }
+        }
+        .Account{
+            margin: 15px 0px ;
+            .email{
+                margin-top: 20px;
+                .cardEmail{
+                    margin: 0px;
+                    .h3Email{
+                        font-size: 12px;         
+                    }
+                    .textEmail{
+                        font-size: 12px;
+                    }
+                }
+                .Change{
+                    padding: 6px 12px;
+                    font-size: 12px;
+                }
+            }
+            .Disabling{
+                margin: 8px 0px 20px;
+                font-size: 12px;       
+            }
+            .groupButton{
+                .Disable{
+                    padding: 6px 12px;
+                    font-size: 11px;
+                    margin-right: 10px
+                }
+                .Deactivate{
+                    padding: 6px 12px;
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+    
+}

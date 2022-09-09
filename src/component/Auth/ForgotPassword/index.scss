@@ -1,0 +1,14 @@
+.ForgotPassword{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 768px){
+    .ForgotPassword{
+        display: flex;
+        flex-direction: column;
+        .aaa{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

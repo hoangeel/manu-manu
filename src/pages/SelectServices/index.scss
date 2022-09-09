@@ -1,0 +1,118 @@
+.Services{
+  .headerServices{
+    padding: 15px 32px;
+    .logoManuManu{
+      &:hover{
+        cursor: pointer;
+        opacity: 0.7;
+      }
+    }
+  }
+  .SelectServices{
+    margin: 190px 0px 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.5px;
+  }
+  .contentServices{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 324px;
+    padding: 0px;
+    .ServicesFull{
+      padding: 0px 12px ;
+      display: flex;
+      justify-content:end;
+      .cardServices{
+        width: 344px;
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        box-shadow: 0px 14px 30px rgba(92, 32, 7, 0.05);
+        border-radius: 16px;
+        &:hover{
+          border: 1px solid #F96F37;
+          cursor: pointer;
+          opacity: 0.7;
+        }
+        .cardBodyServices{
+          padding: 72px 93px 16px;
+          .cardImgServices{
+            width: 158px;
+            height: 158px;
+            border-radius: 296.25px;
+          }
+        }
+        .cardTextServices{
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 28px;
+          text-align: center;
+          color: #1A2649;
+          margin-bottom: 72px;
+        }
+      }
+    }
+    .ServicesQR{
+      display: flex;
+      justify-content:left;
+    }
+  }
+}
+@media (max-width: 600px){
+  .Services{
+    .SelectServices{
+      margin: 100px 0px 50px;
+    }
+    .contentServices{
+      flex-direction: column;
+      margin-bottom: 100px;
+      .ServicesFull{
+        justify-content:center;
+      }
+      .ServicesQR{
+        margin-top: 32px;
+        justify-content:center;
+      }
+    }
+  }
+}
+@media (max-width: 500px){
+  .Services{
+    .headerServices{
+      padding: 15px 10px;
+    }
+    .SelectServices{
+      margin: 50px 0px 30px;
+    }
+    .contentServices{
+      flex-direction: column;
+      margin-bottom: 50px;
+      .ServicesFull{
+        justify-content:center;
+      }
+      .ServicesQR{
+        margin-top: 32px;
+        justify-content:center;
+      }
+    }
+  }
+}
+@media (max-width: 400px){
+  .Services{
+    .contentServices{
+      .ServicesFull{
+        .cardServices{
+          .cardBodyServices{
+            padding: 72px 83px 16px;
+          }
+        }
+      }
+    }
+  }
+}

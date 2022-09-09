@@ -1,0 +1,219 @@
+.Full{
+    padding: 32px 0px 316px;
+    .headerFull{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+        color: #1A2649;
+        span.headerFull{
+            font-size: 14px;
+            letter-spacing: -0.5px;
+            color: #999999;   
+            margin-left: 16px;         
+        }
+    }
+    .buttonADD{
+        justify-content: center;
+        align-items: center;
+        padding: 8px 24px 8px 24px;
+        background: #F96F37;
+        border-radius: 6px;  
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF; 
+        border: none;  
+        &:hover{
+            cursor: pointer;
+            opacity: 0.7;
+        }                  
+    }
+    .tableFull{
+        th{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: -0.5px;
+            color: #636A82;
+            border: none;
+            padding: 32px 0px 14px;
+        }
+        td{
+            vertical-align: middle;
+            padding: 10px 0px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: -0.5px;
+            color: #1A2649;
+            .iconType{
+                margin-right: 16px;
+            }
+            .editList{
+                margin-right: 24px;
+                &:hover{
+                    cursor: pointer;
+                    opacity: 0.7;
+                }  
+            }
+            .deleteList{
+                &:hover{
+                    cursor: pointer;
+                    opacity: 0.7;
+                }  
+            }
+        }
+        td.type{
+            width: 172px;
+        }
+        td.url{
+            width: 295px;
+        }
+        td.qr{
+            width: 669px;
+        }
+        td.action{
+            width: 100px;
+        }
+    }
+}
+@media (max-width: 990px) {
+    .Full{
+        padding: 32px 0px 200px;
+        .tableFull{
+            td{
+                font-size: 14px;
+                .iconType{
+                    margin-right: 10px;
+                    img{
+                        width: 33px;
+                        height: 33px;
+                    }
+                }
+                .editList{
+                    margin-right: 15px;  
+                }
+            }
+            td.type{
+                width: 100px;
+            }
+            td.url{
+                width: 230px;
+            }
+            td.qr{
+                width: 230px;
+            }
+            td.action{
+                width: 70px;
+            }
+        }
+    }  
+} 
+@media (max-width: 768px) {
+    .Full{
+        padding: 32px 0px 150px;
+        .tableFull{
+            td{
+                font-size: 12px;
+                .iconType{
+                    margin-right: 7px;
+                    img{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+                .editList{
+                    margin-right: 10px; 
+                    img{
+                        width: 25px;
+                        height: 25px;
+                    } 
+                }
+                .deleteList{
+                    img{
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+            }
+            td.type{
+                width: 75px;
+            }
+            td.url{
+                width: 180px;
+            }
+            td.qr{
+                width: 180px;
+            }
+            td.action{
+                width: 60px;
+            }
+        }
+    }  
+} 
+@media (max-width: 550px) {
+    .Full{
+        .headerFull{
+            font-size: 14px;
+            span.headerFull{
+                font-size: 12px;   
+                margin-left: 10px;         
+            }
+        }
+        .buttonADD{
+            padding: 3px 10px;
+            font-size: 12px;                
+        }
+        .tableFull{
+            th.qr, th.url {
+                width: 100px;
+            }
+            td.type{
+                width: 75px;
+                .iconType{
+                    margin-right: 7px;
+                    img{
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+            }
+            td.qr, td.url{
+                width: 100px;
+                span {
+                    margin-top: 5px;
+                    display: inline-block;
+                    width: 80px;
+                    white-space: nowrap;
+                    overflow: hidden !important;
+                    text-overflow: ellipsis;
+                }
+            }
+            td.action{
+                .editList{
+                    margin-right: 10px; 
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    } 
+                }
+                .deleteList{
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
